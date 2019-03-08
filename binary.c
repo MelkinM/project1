@@ -19,16 +19,7 @@ void merge(int a[],int low,int mid,int high)
     for(k=low;k<=high;k++)
         a[k]=b[k];
 }
-void mergesort(int a[],int low,int high)
-{
-    int mid;
-    if(low>=high)
-        return;
-    mid=(low+high)/2;
-    mergesort(a,low,mid);
-    mergesort(a,mid+1,high);
-    merge(a,low,mid,high);
-}
+
 void main()
 {
 int n,a[2000],k,l;
