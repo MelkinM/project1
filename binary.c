@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-#include<time.h>
 void merge(int a[],int low,int mid,int high)
 {
     int i,j,k,b[20];
